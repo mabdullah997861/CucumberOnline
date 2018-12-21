@@ -26,6 +26,7 @@ public class LoginTestSteps
 	
 	{
 		driver.findElement(By.linkText("Sign in")).click();
+		// test
 		driver.findElement(By.id("email")).sendKeys("Username");
 		driver.findElement(By.id("passwd")).sendKeys("password");
 		
